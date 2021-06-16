@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 body{
-background-color: #FFEEDF;
+background-color: #F5E6CA;
 
 }
 .about{
@@ -14,7 +14,35 @@ background-color: #FFEEDF;
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     padding-left: 200px;
+    padding-right:100px;
+    height:auto;
     
+    
+}
+.img1{
+  width:15%;
+  height:15%;
+  float:right;
+ 
+  padding-left:10px;
+}
+.content1{
+  padding-left: 100px;
+  padding-right:10px ;
+}
+.particulars{
+  padding-right:100px ;
+  
+}
+.particulars1{
+  position:relative;
+  background-color: coral;
+  width:300px;
+  float: auto;
+  margin-left:31%;
+}
+.intro{
+  font-size: 20px;
 }
 
 
@@ -25,6 +53,7 @@ background-color: #FFEEDF;
     z-index: 1;
     top: 0;
     left: 0;
+    font-family: 'Inter', sans-serif;
     background-color: #343F56;
     overflow-x: hidden;
     padding-top: 20px;
@@ -35,7 +64,7 @@ background-color: #FFEEDF;
     text-decoration: none;
     font-size: 25px;
     color:#FB9300;
-    font-family: 'Inter', sans-serif;
+    
     display: block;
   }
   
