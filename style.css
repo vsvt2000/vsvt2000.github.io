@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+body{
+background-color: #FFEEDF;
+
+}
+.about{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 200px;
+    display:none;
+}
+.aboutm{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 200px;
+    
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343F56;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#FB9300;
+    font-family: 'Inter', sans-serif;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #FFEEDF;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

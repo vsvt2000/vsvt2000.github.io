@@ -1,7 +1,44 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <script>
+        var current=1;
+        function changefn(val){
+            document.getElementById(current).style.display="none";
+            document.getElementById(val).style.display="block";
+            current=val;
+        }
+    </script>
+    <div id="mySidenav" class="sidenav">
+  <a href="#" onclick="changefn('1')">About</a>
+  <a href="#"onclick="changefn('2')">Projects</a>
+  <a href="#" onclick="changefn('3')">Courses & Certificates</a>
+  <a href="#" onclick="changefn('4')">Other activities & interests</a>
+  <a href="#" onclick="changefn('5')">Contact</a>
+</div>
+<div id="1" class="aboutm">
+<h1>Vishnu Sai Viswajith</h1>
+<p>Welcome to this wonderful platform</p>
+</div>
+<div id="2" class="about">
+    <h1>Projects</h1>
+    <p>i need to fill list of projects here</p>
+</div>
+<div id="3" class="about">
+    <h1>Courses and certificates</h1>
+    <p>i need to fill list of Courses and certificates here</p>
+</div>
+<div id="4" class="about">
+    <h1>Other activities and interests</h1>
+    <p>i need to fill Other activities and interests here</p>
+</div>
+<div id="5" class="about">
+    <h1>Contact</h1>
+    <p>i need to fill Contact here</p>
+</div>
+
 </body>
 </html>
