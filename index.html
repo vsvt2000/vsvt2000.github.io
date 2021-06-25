@@ -2,6 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -12,18 +14,20 @@
             document.getElementById(val).style.display="block";
             current=val;
         }
+      
     </script>
+    
     <div id="mySidenav" class="sidenav">
   <a href="#" onclick="changefn('1')">About</a>
   <a href="#"onclick="changefn('2')">Projects</a>
-  <a href="#" onclick="changefn('3')">Courses & Certificates</a>
+  <a href="#" onclick="changefn('3')">Courses & Core skills</a>
   <a href="#" onclick="changefn('4')">Other activities & interests</a>
   <a href="#" onclick="changefn('5')">Contact</a>
 </div>
 <div id="1" class="aboutm">
-<h1>Vishnu Sai Viswajith</h1>
+<h1>Vishnusai Viswajith Tharoor</h1>
 
-<img class="img1" src='profielpic.jpg'/>
+<img class="img1" src='vishnu.jpg'/>
 <br/>
 <br/>
 <br/>
@@ -31,15 +35,15 @@
 <br/>
 <br/>
 <div class="content1">
-<h4><i>&nbsp;&nbsp;&nbsp;&nbsp;"Learning never ends because life keeps teaching us valuable lessons."</i><br></h4>
-<br>
+<h5><b><i>&nbsp;&nbsp;&nbsp;&nbsp;"Learning never ends because life keeps teaching us valuable lessons."</i></b><br></h5>
+<br><br><br><br><br><br><br><br><br>
 <p class="intro">
-I am an engineering graduate seeking to be a contributor to the development of solutions in various fields.  
-</p>
+I am a Computer Science Engineering graduate seeking to be a contributor to the development of solutions in various fields.  
+<h5>
 <br>
 <br>
 <div class="particulars">
-<p>Till my 12th grade , I studied at <b>Bharatiya Vidya Bhavan</b> ,a prestigious institution which is located in Coimbatore.</p>
+<h5>Till my 12th grade , I studied at <b>Bharatiya Vidya Bhavan</b> ,a prestigious institution which is located in Coimbatore.<h5>
 
 <p>Percentage of marks in the 10th grade: <b>97</b></p>
 <p>Completion: <b>2016</b></p>
@@ -53,7 +57,8 @@ I am an engineering graduate seeking to be a contributor to the development of s
     
     
     <p>Commencement: <b>2018</b></p>
-    <p>Current CGPA: <b>8.81</b></p>
+    <h5>Current CGPA(Upto Sem 5): <b>8.81</b></h5>
+    <br>
     <p>Expected Year of Graduation: <b>2022</b></p>
     </div>
     <br>
@@ -70,22 +75,134 @@ I am an engineering graduate seeking to be a contributor to the development of s
         <br>
 </div>
 </div>
-<div id="2" class="about">
+<div id="2" class="about2">
+    
     <h1>Projects</h1>
-    <p>i need to fill list of projects here</p>
+    <h5>I have been part of projects that fulfill diverse functionalities, and have taken up case studies as a part of curriculum.<br> I also have taken up hobby case studies on various topics , which has helped strengthen my understanding in the topic as well as the tools used.<br><br><b>Click on any project of your choice to know more! :)</b></h5>
+    <br><br><br><br>
+    <button type="button" class="collapsible">Elective Management System</button>
+    
+     <div class="content">
+     <p>This Elective Management system aims to bring about an easier way for the teachers and their 
+      departments to put up their electives and for students to choose them by viewing the available electives
+      and the admins to mediate and oversee these operations.<br></br>
+      The student,teacher and the admin each have their own dashboard where their required facilities are provided.
+      With the automation of the allocation and realloacation (after change in students preferences), it provides a 
+      hassle free expreience for the student, teacher and the administrator.<br></br>
+      The students can choose the electives from the list provided with the guidance of the ratings by the batch who 
+      attended the course before them. They also get an email or a notification whenever the forms open.<br></br>
+      The teachers need not worry about getting the list they would received the final copy.<br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;Stack used:</b></p><ul style="list-style: none;"><li>ReactJS</li><li>NodeJS</li><li>MySQL</li><li>ExpressJS</li></ul>
+      
+    </div>
+    <br>
+    <br>
+    
+    <button type="button" class="collapsible">Travel Rating System</button>
+    
+     <div class="content">
+        <p>We all are part of an exciting world which loves to explore new places, discover new tastes and enjoy the various aspects of the World. To know the places that suits your taste, and to enjoy a great experience, we need a good system that will ensure the user is able to make a good decision on spending the day enjoying the various creations of man, or the beauty of nature.
+          <br>
+          A Travel Rating System, that will help ensure that the end user has achieved a good experience, and productivity is the possible answer to all of it, and this has proved to be the motivation behind choosing this application <br><b>&nbsp;&nbsp;&nbsp;&nbsp;Stack used:</b><ul style="list-style: none;"><li>HTML</li><li>CSS</li><li>PhP</li><li>MySQL</li></ul></p>    </div>
+        <br>
+        <br>
+        <button type="button" class="collapsible">AVL Tree Visualizer</button>
+    
+        <div class="content">
+           <p>Named after their inventor Adelson, Velski & Landis, AVL trees are height balancing binary search tree. AVL tree checks the height of the left and the right sub-trees and assures that their difference is not more than 1. This difference is called the Balance Factor. <br>
+            <br>This page has been developed to facilitate students from various
+            backgrounds to efficiently learn about a slightly complex data structure, AVL tree.
+            With our effective animations and user friendly interface helps students to not only try out multiple test cases and visualize the
+            rotations but also, to quickly learn and apply these concepts. <br><br><b>&nbsp;&nbsp;&nbsp;&nbsp;Tools used:</b><ul style="list-style: none;"><li>HTML</li><li>CSS</li><li>Rapydscript/JS</li><li>Flask</li><li>Python</li></ul></p>    </div>
+           <br>
+           <br>
+           <button type="button" class="collapsible">Case Studies</button>
+       
+           <div class="content">
+            <ul style="list-style: none;"><li><b>1)Data exploration,analysis and visualisation on IPL Datasets</b><br>Using Python and its libraries like pandas,numpy,matplotlib,seaborn and sklearn , data analysis and hypothesis testing were perfomed and visualizations were created </li><br><li><b>2)Networking case study on Uber</b><br>Involves an extensive exploration of the networking concepts like Socket Programming , Routing algorithms</li><br><li><b>3)CoVID-19 analysis in India using ML models</b><br>Implementation of various ML Models for a subset of data on CoVID-19 cases collected on a daily basis in every state of India</li></ul>   </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+  var i;
+  //console.log("yes its here")
+  //console.log(coll.length,"shucks")
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      //console.log("it should change since its here")
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 </div>
 <div id="3" class="about">
-    <h1>Courses and certificates</h1>
-    <p>i need to fill list of Courses and certificates here</p>
+    <h1>Additional Courses</h1>
+    <br>
+    <br>
+    <div class="particulars">
+    <table style="margin-left: 100px;" class="table table-striped">
+      <tr><th>Course</th><th>Company/Institution</th><th>Duration</th></tr>
+      
+      <tr><td>Career Edge -Soft Skills</td><td style="padding-left: 40px;">Tata Consultancy Services</td><td style="padding-left: 30px;">2 weeks</td></tr>
+      <tr><td>CoVID-19 data analysis</td><td style="padding-left: 40px;">Coursera Project Network</td><td style="padding-left: 30px;">15 Hours</td></tr>
+      <tr><td>Data Analysis and Visualization<br>using Python</td><td style="padding-left: 40px;">TakenMind Global</td><td style="padding-left: 30px;">1 month</td></tr>
+      <tr><td>HTML,CSS dev. course</td><td style="padding-left: 40px;">University of Michigan</td><td style="padding-left: 30px;">70 Hours</td></tr>
+      <tr><th>Python Specialization</th><td style="padding-left: 40px;">University of Michigan</td><td style="padding-left: 30px;">1 month</td></tr>
+
+    </table></div>
+    <br>
+    <br>
+    <h1>Core Skills</h1>
+    <br>
+    <h3> Programming Languages</h3>
+    <ul style="margin-right: 10px; list-style: none;"><li><h5>Python<h5></li><li><h5>Java(basic)</h5></li><li><h5>C</h5></li><li><h5>JavaScript</h5></li><li><h5>SQL</h5></li></ul>
+    <br>
+    <br>
+    <h3>Tools/FrameWorks/Libraries</h3>
+    <ul style="margin-right: 10px; list-style: none;"><li><h5>MongoDB(learning)</h5></li><li><h5>Keras</h5></li><li><h5>Pandas</h5></li><li><h5>Matplotlib</h5></li><li><h5>Seaborn</h5></li><li><h5>Sklearn</h5></li><li><h5>Android Studio(basics)</h5></li><li><h5>Axios</h5></li><li><h5>ReactJS</h5></li></ul>
+    
 </div>
 <div id="4" class="about">
     <h1>Other activities and interests</h1>
-    <p>i need to fill Other activities and interests here</p>
-</div>
+    <br>
+    <h2>Music</h2>
+    <div style="display: flex;">
+    
+    <img src="Vishnu_vocal.jpg" style="width:50%;height:auto;"/>
+    <img src="Vishnu_veena.jpg" style="width:50%;height:auto;"/>
+  </div>
+    <br>
+    <div style="margin-left: 100px;">
+    <h5>I am learning <b>Carnatic music(Vocal) </b>for the past 13 years. Since 2014, I am under the tutelage of Vidwan Prof.K Sivaramakrishnan , who was the former principal of Govt. Music college , Coimbatore.<br>I have been blessed to have performed at various prestigious occasions</h5>
+    <br>
+    <h5>I am learning <b>Carnatic music(Veena) </b>for the past 8 years. I am under the tutelage of Smt. Menakadevi Gangadharan .</h5>
+    <br>
+   </div>
+    <br>
+    <h2>Hobbies</h2>
+    <br>
+    <div>
+    <h4>Cooking</h4>
+    <br>
+    <h4>Cricket</h4>
+    <br>
+    <h4>Badminton</h4>
+  </div>
+  </div>
 <div id="5" class="about">
     <h1>Contact</h1>
-    <p>i need to fill Contact here</p>
+    <br>
+    <br>
+    
+    <a href="https://drive.google.com/file/d/1uZqV0Lr_CQBoNOlJLaQy4ax86aAqicSA/view?usp=sharing" target="blank"><h4>Click here to view my resume</h4></a>
+    <br>
+    <br>
+    <br>
+    <a href="https://github.com/vsvt2000" target="blank"><i class="fa fa-github fa-4x" style="color:blueviolet;"></i></a>
+    <a href="https://www.hackerrank.com/cb_en_u4cse18068" target="blank"><img src="HackerRank_Icon-1000px.png" style="width:60px;height:60px;margin-bottom: 40px;margin-left: 15px;"></a>
 </div>
-
 </body>
 </html>
